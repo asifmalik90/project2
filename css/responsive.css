@@ -1,0 +1,115 @@
+/* For Tablets max-width 821 */
+
+@media only screen and (max-width: 821px) {
+    .header-content{
+        height: 53rem;
+    }
+
+  header .header-content p br {
+    display: none;
+  }
+
+  .header-content #box-1 {
+    top: 30.313rem;
+    left: 2.063rem;
+  }
+
+  .header-content #box-2{
+    left: 1rem;
+    top: 25rem;
+  }
+
+  .header-content .hero-image{
+    position: relative;
+    right: -20rem;
+    top: -8rem;
+  }
+
+  #testinomials .testinomial-client .btn-primary{
+    margin-top: 11rem;
+    margin-left: 33rem;
+  }
+
+  #testinomials .testinomial-client #testinomial-client-1,
+  #testinomials .testinomial-client #testinomial-client-2
+  {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #testinomials .testinomial-client #testinomial-client-1 p br{
+     display: none;
+  }
+
+  #testinomials .testinomial-client #testinomial-client-1 .client-feedback,
+  #testinomials .testinomial-client #testinomial-client-2 .client-feedback{
+    width: 100%;
+  }
+
+  #testinomials .testinomial-client #testinomial-client-1 .client-feedback{
+    height: 4.68rem;
+  }
+
+  #our-courses .courses .course{
+    width: 39.5rem;
+    height: 23.313rem;
+    padding: 0 2rem 0 2rem;
+    margin: 0 1rem;
+  }
+
+  #our-courses .courses .course .game-design{
+    width: 35.5rem;
+    height: 16.25rem;
+    max-width: none;
+  }
+
+  #our-courses .courses .course:first-child {
+    margin-right: 0;
+    margin-bottom: 7rem;
+}
+
+#our-courses .courses .course .course-content span {
+    margin-left: 31rem;
+    display: block;
+    margin-top: -2.7rem !important;
+}
+
+#our-courses .courses .course .course-content::after {
+    width: 35.875rem;
+    margin-top: 2.7rem;
+}
+
+#our-courses .courses .course .course-content h4 br {
+    display: block !important;
+}
+
+#our-courses .courses .course:last-child {
+    height: 24.7rem;
+}
+
+#our-courses .courses .course .course-content:last-child span::after{
+    margin-top: 3.5rem;
+}
+
+#our-courses .courses .course .course-content:last-child{
+    margin-top: 1rem;
+}
+
+#our-courses .btn-primary {
+    margin-top: 3rem;
+    margin-right: 2rem;
+}
+
+#our-app h3 {
+    font-size: 2.5rem;
+}
+
+footer .Contact{
+    margin-top: 2rem !important;
+}
+
+footer .Contact input {
+    max-width: 34rem !important;
+}
+
+}
